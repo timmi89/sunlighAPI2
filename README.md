@@ -1,7 +1,7 @@
 # Sunlight-api
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app use the Sunlight API and allows a user to look up information about state representatives, based on their zip codes.
 
 ## Prerequisites
 
@@ -19,6 +19,8 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `npm install ember-cli`
+* `ember install ember-bootstrap`
 
 ## Running / Development
 
@@ -41,7 +43,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+The above steps should be enough to get you up and running, if not, apply for an api key through https://sunlightfoundation.com/api/ and replace it with the key found on line 7 in the result.js file.
 
 ## Further Reading / Useful Links
 
@@ -50,4 +52,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
